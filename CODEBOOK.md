@@ -1,4 +1,5 @@
-##  **Code Book**
+**Code Book**
+========
 
 This document describes the variables, the data inside "tidy.txt", and any transformations or work that was performed to clean up the data called.
 
