@@ -39,7 +39,7 @@ The  R script called run_analysis.R  does the following.
 
 ### 2. The tidy data : "tidy.txt"
 
-Containes of Average of each measurement for every subject and Activity.
+Containes of Average of each measurement for each subject and Activity.
 
 (More detailes can be found in the CODEBOOK.MD)
 
