@@ -17,6 +17,8 @@ This document describes the data inside "tidy.txt"
 
 ### Measurements: - type "Double"
 
+This data containes means and standard deviation averages.
+
  [3] "tBodyAcc-mean()-X"              
  [4] "tBodyAcc-mean()-Y"              
  [5] "tBodyAcc-mean()-Z"              
@@ -89,7 +91,7 @@ This document describes the data inside "tidy.txt"
 [72] "fBodyAccMag-meanFreq()"         
 [73] "fBodyBodyAccJerkMag-mean()"     
 [74] "fBodyBodyAccJerkMag-std()"      
-[75] "fBodyBodyAccJerkMag-meanFreq()" 
+[75] "fBodyBodyAccJerkMag-meanFreq()"
 [76] "fBodyBodyGyroMag-mean()"        
 [77] "fBodyBodyGyroMag-std()"         
 [78] "fBodyBodyGyroMag-meanFreq()"    
