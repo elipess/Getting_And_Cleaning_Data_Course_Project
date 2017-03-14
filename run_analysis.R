@@ -49,5 +49,8 @@ DataSet$subject <- factor(DataSet$subject)
 DataSetMelt <- melt(DataSet, id = c("subject", "activity"))
 tidy <- dcast(DataSetMelt, subject + activity ~ variable, mean)
 
+# Write to "txt" file with the final data 
 write.table(tidy, "tidy.txt", row.names = FALSE)
 
+# Write to "csv" file with the final data 
+write.csv(tidy, file = "tidy.csv", row.names = FALSE)
