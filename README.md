@@ -37,7 +37,7 @@ The  R script called run_analysis.R  does the following.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
-### 2. The tydy data : "tidy.txt"
+### 2. The tidy data : "tidy.txt"
 
 Containes of Average of each measurement for every subject and Activity.
 
