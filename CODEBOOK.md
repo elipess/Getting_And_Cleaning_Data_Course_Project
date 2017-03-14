@@ -1,10 +1,12 @@
-Code Book
+##  **Code Book**
 
- Identifiers:
+This document describes the data inside "tidy.txt"
+
+### Identifiers: 
+
+ **[1]** "subject"  - The id number of the subject  (1-30) - type "factor" 
  
- [1] "subject"  - The id number of the subject  (1-30)
- 
- [2] "activity" - The type of activity  (1-6)
+ **[2]** "activity" - The type of activity  (1-6) - type "factor" 
         1. WALKING 
         2. WALKING_UPSTAIRS 
         3. WALKING_DOWNSTAIRS
@@ -12,8 +14,8 @@ Code Book
         5. STANDING 
         6. LAYING 
 
- Measurements:
- 
+### Measurements: - type "Double"
+
  [3] "tBodyAcc-mean()-X"              
  [4] "tBodyAcc-mean()-Y"              
  [5] "tBodyAcc-mean()-Z"              
