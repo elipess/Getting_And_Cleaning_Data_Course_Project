@@ -7,6 +7,7 @@ This document describes the data inside "tidy.txt"
  **[1]** "subject"  - The id number of the subject  (1-30) - type "factor" 
  
  **[2]** "activity" - The type of activity  (1-6) - type "factor" 
+ 
         1. WALKING 
         2. WALKING_UPSTAIRS 
         3. WALKING_DOWNSTAIRS
