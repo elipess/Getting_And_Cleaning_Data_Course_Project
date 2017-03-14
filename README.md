@@ -1,4 +1,5 @@
 **Getting And Cleaning Data - Course Project**
+==============================================
 
 
 ### Introduction
@@ -46,5 +47,3 @@ Containes of Average of each measurement for each subject and Activity.
 
 
 ### 3. A code book that describes the variables, the data, and any transformations or work that was performed to clean up the data called  : "CODEBOOK.md"
-
-
