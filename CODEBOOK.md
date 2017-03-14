@@ -1,6 +1,42 @@
 ##  **Code Book**
 
-This document describes the data inside "tidy.txt"
+This document describes the variables, the data inside "tidy.txt", and any transformations or work that was performed to clean up the data called.
+
+### The code was performed in thes steps:
+	1. Download and unzip the dataset:
+    2. Load the features(measurements) of the "samsung gear"
+    3. Search for the features that have mean and std on measurements.
+    4. Load the train datasets.
+    5. Load the test  datasets.
+    6. Merge the trainingSet and the testSet sets to create one data set.
+    7. Appropriately label the data set with descriptive variable names.
+    8. Used descriptive activity names to name the activities in the data set
+    9. Created a second independed data set that containes average of each variable for each activity and each subject.
+    10. Write to a "txt" or "csv" file with the final data.
+
+
+### Helper libraries
+
+	1. "reshape2"
+
+### Helper functions
+
+	1. "download.file"
+    2. "cbind" 
+    3. "rbind"
+    4. "melt"
+    5. "dcast"
+    6. "write.table"
+    7. "grep"
+
+
+### The Data
+
+The Date inside "tidy.txt" is based on the experiments that have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
+
+The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details. 
+
+##  The variables
 
 ### Identifiers: 
 
@@ -17,7 +53,7 @@ This document describes the data inside "tidy.txt"
 
 ### Measurements: - type "Double"
 
-This data containes means and standard deviation averages.
+This data containes of means and standard deviation averages of time and frequency domain variables.
 
  [3] "tBodyAcc-mean()-X"              
  [4] "tBodyAcc-mean()-Y"              
@@ -98,3 +134,7 @@ This data containes means and standard deviation averages.
 [79] "fBodyBodyGyroJerkMag-mean()"    
 [80] "fBodyBodyGyroJerkMag-std()"     
 [81] "fBodyBodyGyroJerkMag-meanFreq()"
+
+Notes: 
+======
+- Measurements were normalized before calculating the Average and were bounded within [-1,1].
